@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(31 41 55);
+  color: white;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white; /* May or may not be needed */
+}
+
+.one {
+  background-color: rgb(31 41 55);
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+}
+
+.one-left {
+  display: flex;
+  flex-direction: column;
+  /* background: blue; This is to help visualise the container/item */
+  flex: 0 1 auto;
+  width: 100%;
+  padding-right: 8px;
+}
+
+.one-left-text-big {
+  font-weight: bold;
+  font-size: 32px;
+  color: white;
+}
+
+.one-left-text-small {
+  font-size: 12px;
+  color: white;
+}
+
+.one-button {
+  background: #3b82f6;
+  flex: 1 1 auto;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: #3b82f6;
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.one-right {
+  /* background: yellow; Visualise container */
+  flex: 0 1 auto;
+  width: 100%;
+}
+
+.one-right-img {
+  width: 100%;
+  height: 150px;
+  background: grey;
+}
+
+.two {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.two-top {
+  /* background: orange; Visualise container */
+  color: rgb(31 41 55);
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+
+.two-bottom {
+  /* background: yellow; Visualise container */
+  display: flex;
+  flex-direction: row;
+  /* background: blue; To help visualise container */
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.two-img {
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-color: #3b82f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.two-subtext {
+  text-align: center;
+  flex: 1;
+  width: 100px;
+  height: auto;
+}
+
+.three {
+  background-color: #e5e7eb;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.three-text {
+  /* background: orange; This is to help visualise the container/item */
+  text-align-last: right;
+  text-align: justify;
+  width: 500px;
+}
+
+.three-quote {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.three-thor {
+  font-weight: bold;
+}
+
+.four {
+  background-color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.four-card {
+  width: 700px;
+  height: 100px;
+  background: #3b82f6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.four-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+} 
+
+.four-text {
+  /* background: yellow; To help visualise container */
+  flex: 1 1 auto;
+  width: 400px;
+  color: white;
+}
+
+.four-bold {
+  font-weight: bold;
+}
+
+.four-text-2 {
+  font-size: 12px;
+  color: white;
+}
+
+.four-button {
+  background: #3b82f6;
+  flex: 1 1 auto;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px;
+}
+
+.footer {
+  background-color: rgb(31 41 55);
+  text-align: center;
+  color: white;
+  display: flex;
+}
